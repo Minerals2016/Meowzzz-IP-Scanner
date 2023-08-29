@@ -1,7 +1,11 @@
 # Meowzzz Network Scanner
 ### *Currently in development...*
+
+![Logo](https://cdn.discordapp.com/attachments/1129900240745533571/1146111968437084220/image.png)
+
 Meowzzz is a compact Python program that scans and sweeps local IP addresses 
 and determine open TCP/UDP ports using ICMP packets. It currently supports:
+
 
 ## Basic Features
 
