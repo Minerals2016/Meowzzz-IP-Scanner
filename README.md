@@ -16,6 +16,17 @@ and determine open TCP/UDP ports using ICMP packets. It currently supports:
 - Identifying port services 
 - Implementing parallelism (to improve scanning time)
 
+## Commands
+| Command | Result |
+| ------ | ------ |
+| ScanIPs | scans all IPs in a local network (private addresses) |
+| scanPort | scans a port number (port by port) |
+| ScanIPA (proposed) | scans local network and all IP address ports (with default ports) |
+
+## Current Command Flowchart *(In progress..)*
+![Command flowchart](https://cdn.discordapp.com/attachments/1129900240745533571/1146108703964135505/image.png)
+
+
 ## Tech
 
 Meowzzz currently uses:
@@ -28,3 +39,7 @@ Meowzzz currently uses:
 ## References 
 - [IP Scanner](https://www.makeuseof.com/python-ping-sweeper-how-build/)
 - [Intro to Network Programming](https://www.studytonight.com/network-programming-in-python/introduction-to-network-programming)
+
+
+
+
